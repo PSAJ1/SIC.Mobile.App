@@ -147,11 +147,9 @@ export const registerUser = async (
 export const sendLocation = async (payload: {
   latitude: number;
   longitude: number;
-  messageId?: string;
-  data?: any;
 }): Promise<any> => {
   try {
-    const url = `${API_BASE_URL}/location`;
+    const url = `${API_BASE_URL}/geolocation`;
     console.log('🌐 Sending location to', url, payload);
     const response = await fetch(url, {
       method: 'POST',
