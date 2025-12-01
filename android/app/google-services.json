@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28106293041",
+    "project_id": "salesmanidentitycard",
+    "storage_bucket": "salesmanidentitycard.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28106293041:android:3a762cfce52afd5de43a10",
+        "android_client_info": {
+          "package_name": "com.sic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHq6URgaQy-W-Ais1jkntlOpDAaqVbZWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

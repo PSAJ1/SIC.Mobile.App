@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SIC</string>
+    <string name="default_notification_channel_id">sic_default_channel</string>
+</resources>
