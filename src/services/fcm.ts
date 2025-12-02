@@ -207,9 +207,7 @@ export const setBackgroundMessageHandler = () => {
           if (loc && typeof sendLocation === 'function') {
             await sendLocation({
               latitude: loc.latitude,
-              longitude: loc.longitude,
-              messageId: remoteMessage.messageId,
-              data: remoteMessage.data || {},
+              longitude: loc.longitude
             });
             console.log('📤 Sent background location to server');
           } else {
